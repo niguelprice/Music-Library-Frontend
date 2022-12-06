@@ -2,11 +2,8 @@
 
 
 
-
-
-
 const DisplayMusic = (props) => {
-    return ( 
+    return (
         <table className="table">
             <thead>
             <tr>
@@ -27,7 +24,7 @@ const DisplayMusic = (props) => {
                     <td>{song.release_date}</td>
                     <td>{song.genre}</td>
                 </tr>
-                );
+            );
             })}
             </tbody>
         </table>
